@@ -11,7 +11,6 @@ from adjustText import adjust_text
 
 def parseData():
     """!"""
-
     # Parse conference teams from CSV files
     aac = pd.read_csv('data/aac.csv', header=1, usecols=[1, 3])
     acc = pd.read_csv('data/acc.csv', header=1, usecols=[1, 3])
