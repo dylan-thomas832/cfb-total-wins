@@ -119,7 +119,7 @@ def plotData(stats, adjust=False):
 
     # Text adjustment
     if adjust:
-        adjust_text(texts, autoalign='', only_move={'text':'y'}, arrowprops=dict(arrowstyle="-", color='r', lw=0.5))
+        adjust_text(texts, autoalign='', only_move={'text': 'y'}, arrowprops=dict(arrowstyle="-", color='r', lw=0.5))
 
 
 if __name__ == "__main__":
